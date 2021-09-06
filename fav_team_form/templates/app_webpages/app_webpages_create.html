@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div>Bu shakl futbol ishqibozlarining (bizning mamlakatimizda) sevimli jamoalariga ko'ra taqsimlanishi haqida ma'lumot (ma'lumotlar bazasi) olish maqsadida yaratilgan. Bu shakl shaxsiy ma'lumotlarni to'plashni ko'zlamaydi, shuning uchun shakl yaratuvchisi ishtirokchilarga ismi va familiyasini kiritmaslik huquqini qoldiradi.</div>
+
+<form action="" method="POST" class="form">{% csrf_token %}
+	<h2 class="form_title">TO'LDIRISH SHAKLI</h2>
+	{{ form.as_p }}
+	<button class="form_button">Yuborish</button>
+</form> 
+
+{% endblock %}
