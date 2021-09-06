@@ -1,0 +1,1 @@
+web: gunicorn trydjango3.wsgi
