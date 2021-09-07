@@ -21,7 +21,8 @@ class FormInfo(models.Model):
 		('Samarqand', 'Samarqand viloyati'),
 		('Surxondaryo', 'Surxondaryo viloyati'),
 		('Sirdaryo', 'Sirdaryo viloyati'),
-		('Toshkent', 'Toshkent viloyati'),
+		('Toshkent vil', 'Toshkent viloyati'),
+		('Toshkent sh', 'Toshkent shahri'),
 		('Fargʻona', 'Fargʻona viloyati'),
 		('Xorazm', 'Xorazm viloyati'),
 		('Qoraqalpogʻiston', 'Qoraqalpogʻiston Respublikasi')
